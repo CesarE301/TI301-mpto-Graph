@@ -24,8 +24,9 @@ public class Graph {
     }
         
     public Graph(int numVertex) {
-        setVertex(numVertex);
         init();
+        setVertex(numVertex);
+        
         
     }
     private void init(){
@@ -47,7 +48,7 @@ public class Graph {
         
         numEdge++;
     }
-    
+    @Override
     public String toString() {
         String out = "Graph ------------- \n";
         

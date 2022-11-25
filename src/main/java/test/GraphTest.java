@@ -18,6 +18,13 @@ public class GraphTest {
     defaultGraph.setEdge(0, 2);
     
         System.out.println(defaultGraph.toString());
+        
+        
+        //crear una instancia Graph, constructor vertices
+        System.out.println("Graph params constructor -----------");
+        Graph paramGraph = new Graph(5);
+        
+        System.out.println(paramGraph.toString());
     }
     
 }
